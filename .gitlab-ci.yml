@@ -1,0 +1,9 @@
+image: maven:3.9-eclipse-temurin-21
+
+stages:
+  - test
+
+tests:
+  stage: test
+  script:
+    - mvn test
